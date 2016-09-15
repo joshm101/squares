@@ -1,0 +1,54 @@
+
+@media screen and (orientation: portrait) {
+	.four-grid {
+	  width: 100%;
+	}
+	.four-grid-item {
+      display: inline-block;
+      width: 50%;
+      float: left;
+	}
+	.four-grid-item img {
+  	  width: 100%;
+	}
+	.big-square {
+		width: 100%;
+	}
+	.big-square img {
+		width: 100%;
+	}
+	.all-content-wrap {
+	  height: 100%;
+	  display: block;
+	}
+}
+
+@media screen and (orientation: landscape) {
+	.big-square {
+	  width: 50%;
+	  float: left;
+	}
+	.big-square img {
+      width: 100%;
+	}
+
+	.four-grid {
+	  width: 50%;
+	  display: inline-block;
+	}
+	.four-grid-item {
+	  width: 50%;
+	  float: left;
+	  display: inline-block;
+	}
+	.four-grid-item img {
+
+	  width: 100%;
+	  
+	}
+	.all-content-wrap {
+	  height: 100%;
+	}
+}
+
+
